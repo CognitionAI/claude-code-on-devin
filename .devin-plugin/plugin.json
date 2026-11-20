@@ -10,7 +10,7 @@
       "Approve access in the browser, then copy the token printed in your terminal. It is shown only once and lasts one year.",
       "Paste it into CLAUDE_CODE_OAUTH_TOKEN below and save. When it expires, repeat these steps.",
       "Using an API key instead: leave the token empty and paste a key from platform.claude.com into ANTHROPIC_API_KEY. If you save both, the subscription token is used.",
-      "To have Claude Code preinstalled instead of fetched with npx on first use, add `npm install -g @anthropic-ai/claude-code` to the environment's blueprint."
+      "To have Claude Code preinstalled instead of fetched with npx on first use, add `npm install -g @anthropic-ai/claude-code@2.1.315` to the environment's blueprint."
     ]
   },
   "homepage": "https://code.claude.com/docs",
