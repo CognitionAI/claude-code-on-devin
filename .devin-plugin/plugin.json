@@ -19,9 +19,9 @@
   ],
   "mcpServers": {
     "claude-code": {
-      "command": "node",
+      "command": "bash",
       "args": [
-        "${CLAUDE_PLUGIN_ROOT}/server/server.mjs"
+        "${CLAUDE_PLUGIN_ROOT}/server/launch.sh"
       ],
       "env": {
         "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY:-}",
