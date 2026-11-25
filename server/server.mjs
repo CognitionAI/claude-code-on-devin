@@ -33,7 +33,7 @@ function billing() {
 const SETUP_HELP =
   "Claude Code has no working credential. To use a Claude subscription, run `npx -y " +
   CLAUDE_CODE_PACKAGE +
-  " setup-token` on a computer with a browser, then save the printed token as CLAUDE_CODE_OAUTH_TOKEN in the plugin's connection (Customize > Plugins > Claude Code). To use an API key, save it there as ANTHROPIC_API_KEY. Then start a new session.";
+  " setup-token` on a computer with a browser, then save the printed token as CLAUDE_CODE_OAUTH_TOKEN in the plugin's connection (Customize > Plugins > Claude Code). Then start a new session.";
 
 // Claude Code prefers ANTHROPIC_API_KEY over subscription credentials, so a key
 // left in the environment must be removed for a saved token to take effect.

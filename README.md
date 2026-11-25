@@ -1,6 +1,6 @@
 # Claude Code on Devin
 
-A Devin plugin that lets Devin delegate coding tasks to Claude Code as a subagent, using your own Claude subscription or Anthropic API key.
+A Devin plugin that lets Devin delegate coding tasks to Claude Code as a subagent, using your own Claude subscription.
 
 It runs the unmodified Claude Code CLI on the session machine. Not made or endorsed by Anthropic.
 
